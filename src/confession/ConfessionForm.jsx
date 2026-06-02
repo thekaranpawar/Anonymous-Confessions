@@ -57,7 +57,7 @@ const ConfessionForm = ({ onAddConfession }) => {
         {/* Submit Button */}
         <button
           type="submit"
-          className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition"
+          className="bg-purple-600 text-white px-4 py-2 rounded-md cursor-pointer hover:bg-blue-700 transition"
         >
           Post Anonymously
         </button>

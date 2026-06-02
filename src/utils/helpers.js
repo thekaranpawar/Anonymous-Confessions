@@ -18,12 +18,6 @@ export const truncateText = (text, length = 120) => {
   return text.length > length ? text.substring(0, length) + "..." : text;
 };
 
-// Capitalize
-export const capitalize = (str) => {
-  if (!str) return "";
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-};
-
 //  Time ago 
 export const timeAgo = (dateString) => {
   const now = new Date();

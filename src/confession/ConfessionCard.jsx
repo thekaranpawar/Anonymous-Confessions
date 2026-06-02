@@ -21,7 +21,7 @@ const ConfessionCard = ({ confession, onLike }) => {
 
         <button
           onClick={() => onLike(confession.id)}
-          className="flex items-center gap-1 text-red-500 hover:text-red-600 transition"
+          className="flex items-center gap-1 text-red-500 cursor-pointer hover:text-red-600 transition"
         >
           ❤️ <span>{confession.likes}</span>
         </button>
